@@ -1,0 +1,198 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(page.gif);
+    background-repeat: repeat;
+    background-position: top left;
+}
+
+h1, h2, h3, h4, h5, h6, a, p {
+    color: white;
+    font-family: Bahnschrift;
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    padding: 3px 0;
+}
+.mainbox {
+    background: black;
+    margin: auto;
+    width: 60%;
+    border: 3px solid white;
+    padding: 10px;
+    
+}
+
+    .mainbox h1, .mainbox h2, .mainbox h3, .mainbox h4, .mainbox h5, .mainbox h6, .mainbox a, .mainbox audio, .mainbox source {
+        text-align: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .topnav a {
+        color: rgba(242, 242, 242, 0.5);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        border-radius: 3px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+        .topnav a:hover {
+            background-color: rgba(221, 221, 221, 0.5);
+            color: rgba(0,0,0,0.6);
+        }
+
+        .topnav a.active {
+            background-color: rgba(128, 0, 128, 0.5);
+            color: rgba(255,255,255,0.5);
+        }
+.notepad-menu {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 5px 10px;
+    display: flex;
+    gap: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid #cccccc;
+}
+
+    .notepad-menu span {
+        cursor: default;
+    }
+
+
+.notepad-content {
+    padding: 10px;
+    font-family: Consolas, monospace;
+    white-space: pre-wrap;
+    background-color: white;
+    color: black;
+    text-align: left; 
+    display: block; 
+}
+
+.notepad-header {
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+h5 {
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.window-buttons {
+    gap: 5px;
+    right: 10px;
+    top: 5px;
+
+}
+
+    .window-buttons span {
+        background: #cccccc;
+        color: black;
+        width: 25px;
+        height: 25px;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;
+        line-height: 20px;
+        margin: 50px;
+        display: flex;
+        gap: 20px;
+    }
+
+        .window-buttons span:hover {
+            background: #f44336;
+            color: white;
+        }
+
+    .window-buttons .minimize:hover {
+        background: grey;
+    }
+
+    .window-buttons .maximize:hover {
+        background: grey;
+    }   
+
+
+.notepad-header {
+    margin: 0; 
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.notepad-menu {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 5px 10px;
+    display: flex;
+    gap: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid #cccccc;
+}
+
+
+.notepad-content {
+    padding: 0; 
+    margin: 0; 
+    font-family: Consolas, monospace;
+    white-space: pre-wrap;
+    background-color: white;
+    color: black;
+    text-align: left;
+    display: flex;
+    flex-direction: column; 
+    flex-grow: 1; 
+    overflow-y: auto; 
+}
+
+
+#notepad-textarea {
+    width: 100%; 
+    flex-grow: 1; 
+    border: none;
+    resize: none; 
+    font-family: Consolas, monospace;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    outline: none; 
+    min-height: 50px;
+}
+
+
+#notepad-textarea:focus {
+    outline: none;
+}
+html, body {
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+    margin: 0;
+}
+
