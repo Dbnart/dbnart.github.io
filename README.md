@@ -4,7 +4,7 @@
     <title>Put this in an html page</title>
     <style>
             h1{color:purple; font-family: BAHNSCHRIFT; text-align:center;} 
-            body{ background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(page.gif); background-color: black;}
+            body{ background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://dbnart.github.io/page.gif); background-color: black;}
             div{background-color: black; padding-top:50px; padding-bottom:50px; margin-left: 25%; margin-right: 25%; border-style:solid;  border-radius:10px ;border-color:white;}
     </style>
   </head>
