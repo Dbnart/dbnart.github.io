@@ -9,13 +9,6 @@ h1, h2, h3, h4, h5, h6, a, p {
     font-family: Bahnschrift,BackupBHS1,BackupBHS2;
     font-weight: 500;
 }
-.topnav {
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.6);
-    display: flex;
-    justify-content: center;
-    padding: 3px 0;
-}
 .mainbox {
     background: black;
     margin: auto;
@@ -25,33 +18,10 @@ h1, h2, h3, h4, h5, h6, a, p {
     
 }
  .space{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
  }
-    .mainbox h1, .mainbox h2, .mainbox h3, .mainbox h4, .mainbox h5, .mainbox h6, .mainbox a, .mainbox audio, .mainbox source {
-        text-align: center;
-        align-content: center;
-        align-items: center;
-    }
 
-    .topnav a {
-        color: rgba(242, 242, 242, 0.5);
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        border-radius: 3px;
-        transition: background-color 0.3s, color 0.3s;
-    }
 
-        .topnav a:hover {
-            background-color: rgba(221, 221, 221, 0.5);
-            color: rgba(0,0,0,0.6);
-        }
-
-        .topnav a.active {
-            background-color: rgba(128, 0, 128, 0.5);
-            color: rgba(255,255,255,0.5);
-        }
         .mainbox {
             background: black;
             margin: auto;
@@ -59,11 +29,50 @@ h1, h2, h3, h4, h5, h6, a, p {
             border: 3px solid white;
             padding: 10px;
         }
-        .mainbox h1, .mainbox h2, .mainbox h3, .mainbox h4, .mainbox h5, .mainbox h6, .mainbox a , .mainbox audio,.mainbox source{
-                text-align: center;
-                align-content:center;
-                align-items:center; 
-            }       
+/*HERE IS THE START FOR THE NAVBAR*/
+.hyprlnk {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    padding: 3px 0;
+}
+.idontknow{
+    overflow: hidden;
+    background-color: rgba(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 0 16px;
+    margin: -10px;
+
+}
+    .hyprlnk a {
+        color: rgb(167, 167, 167);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        transition: background-color 0.2s, color 0.3s;
+    }
+
+        .hyprlnk a:hover {
+            background-color: rgba(221, 221, 221, 0.5);
+            color: rgba(0,0,0,1);
+            border-radius: 0;
+        }
+
+        .hyprlnk a.active {
+            color: rgba(255,255,255,1);
+            font-size: larger;
+            font-weight: bolder;
+        }
+/*END OF NAVBAR*/
+.update{
+      justify-content: space-between;
+      overflow: hidden;
+          display: flex;
+}
         @font-face { font-family: BackupBHS1; src: url('BAHNSCHRIFT.otf'); } 
         @font-face { font-family: BackupBHS2; src: url('BAHNSCHRIFT.woff'); } 
         @font-face { font-family: BackupSGUI1; src: url('Segoe UI.otf'); } 

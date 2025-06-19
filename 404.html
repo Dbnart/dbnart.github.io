@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>:(</title>
+        <title>404</title>
         <style>
             body {
-                font-family: 'Segoe UI' , BackupSGUI1,BackupSGUI2;
+                font-family: Bahnschrift, Backup1, Backup2;
                 font-weight: normal;
-                background-color: #1173AB;
+                    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(b2.gif);
+                background-repeat: repeat;
+                background-position: top left;
                 color: white;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                height: 70vh;
+                height: 90vh;
                 margin: 0;
             }
 
@@ -19,37 +21,46 @@
                 max-width: 600px;
                 padding: 20px;
                 font-weight: normal;
+                 text-align: center;
             }
-            h1:first-of-type {
-                font-size: 10em;
-                font-weight: normal;
-            }
+
             h1,a {
                 margin: 0.5em 0;
                 font-weight: normal;
             }
-            h4 {
-                font-weight: normal;
-                margin: 2em 0;
-            }
             a {
-                color: white;
+                color: BLACK;
                 font-size: 1.5em;
                 text-decoration: none;
             }
             a:visited{
-                color:white;
+                color:black;
             }
-        @font-face { font-family: BackupSGUI1; src: url('Segoe UI.otf'); } 
-        @font-face { font-family: BackupSGUI2; src: url('Segoe UI.woff'); } 
+            .button{
+                border: color(rgb(255, 255, 255));
+                border-style:solid;
+                background: linear-gradient(90deg,rgb(242, 242, 242), rgb(200, 200, 199));
+                padding-left: 50px;
+                padding-right: 50px;
+                font-family: MSL1,MSL2;
+            }   
+        @font-face { font-family: Backup2; src: url('BAHNSCHRIFT.otf'); } 
+        @font-face { font-family: Backup1; src: url('BAHNSCHRIFT.woff'); } 
+        @font-face { font-family: MSL2; src: url('MSL.otf'); } 
+        @font-face { font-family: MSL1; src: url('MSL.woff'); } 
         </style>
     </head>
     <body>
         <div>
-            <h1>:(</h1>
-            <h1>Your Website ran into a problem that it couldnt handle, and now it needs to restart.</h1>
-            <a href="https://dbnart.github.io">Restart now.</a>
-            <h4>You can search for the error online: ERROR_404</h4>
+            <audio loop autoplay>
+            <source src="bg.ogg" type="audio/ogg">
+            <source src="bg.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+            <h1></h1>
+            <h1>That page doesnt exist. (ERROR 404)</h1>
+           
         </div>
+         <div class="button"><a href="https://dbnart.github.io">GO HOME</a></div>
     </body>
 </html>
