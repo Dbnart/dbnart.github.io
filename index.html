@@ -4,8 +4,15 @@
 	<title>dbnart's website; he llo</title>
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	<link rel="stylesheet" type="text/css" href="index.css">
+	        <script>
+        function displayUserAgent() {
+            var userAgent = navigator.userAgent;
+
+            document.getElementById("user-agent-info").innerHTML = userAgent;
+        }
+		</script>
 </head>
-<body>
+<body onload="displayUserAgent()"> 
 	<div class="idontknow">
 		<div class="nonimportant">
 			<h3>dbnart.github.io</h3>
@@ -15,6 +22,7 @@
 			<a href="updates">Changelog.txt</a> 
 		</div>
 	</div>
+    	    <p id="user-agent-info" style="color: white; font-family: font; text-align: center; margin-top: 20px; margin-bottom: -20px; font-weight: 50;"></p>
 	
 	<div class="mainbox">
 		<h1>hi hello welcome to the my awesomesauce website</h1>

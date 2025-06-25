@@ -141,3 +141,4 @@ h1, h2, h3, h4, h5, h6, a, p{
         @font-face { font-family: BackupBHS2; src: url('BAHNSCHRIFT.woff'); } 
         @font-face { font-family: BackupSGUI1; src: url('Segoe UI.otf'); }  
         @font-face { font-family: BackupSGUI2; src: url('Segoe UI.woff'); } 
+        @font-face { font-family: font; src: url('font.woff2'); }  
