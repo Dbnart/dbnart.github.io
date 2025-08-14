@@ -8,49 +8,69 @@ h1, h2, h3, h4, h5, h6, a, p{
     font-family:Bahnschrift,BackupBHS1,BackupBH2;
     font-weight: 500;
 }
-.mainbox {
+.greenroomjoke {
+    background-image: url(box.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    margin: auto;
+    width: 570px;
+    height: 167px;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    margin-top:700px;
+    margin-bottom: 400px;
+}
+/*BOX STARTS HERE*/
+.box {
     background: black;
     margin: auto;
     width: 60%;
     border: 3px solid white;
     padding: 10px;
     margin-top: 40px;
+    padding-left:20px;
+    padding-right:20px;
 }
-.mainbox h1, .mainbox h2, .mainbox h3, .mainbox h4, .mainbox h5, .mainbox h6, .mainbox a , .mainbox audio,.mainbox source{
-        text-align: center;
-        align-content:center;
-        align-items:center; 
+.box h1, .box h2, .box h3, .box h4, .box h5, .box h6, .box a , .box audio,.box source{
+        text-align: left;
+
         text-decoration: none;
+            font-family:DTMsans;
+            font-size: medium;
+            font-weight:lighter
     }
-.mainbox a{
-        text-decoration: none;
-}
-.mainbox h1,.mainbox h2,.mainbox h3,.mainbox h4,.mainbox h5,.mainbox h6,.mainbox a,.mainbox p {
-    text-align: center;
-}
 
-.topjoke {
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 30%;
-
-}
-
-.mainbox h2 {
-    opacity: 1;
-    color: mediumpurple;
-}
-.mainbox h2:hover {
-    opacity: 0.6;
-}
-.mainbox h3 {
+.box h3 {
     opacity: 0.6;
     color:purple;
 }
-.mainbox h3:hover{
-    opacity:  1;
+.box h2 {
+    opacity: 1;
+    color: mediumpurple;
 }
+/*BOX ENDS HERE*/ 
+
+.about h2:hover {
+    opacity: 0.6;
+}
+
+/*INTEREST THING STARTS HERE */
+.fuck:hover{
+    color: yellow;
+}
+.fuck{
+    color: lightgreen;
+}
+#sel{
+    width: 0px;
+}
+#opti:hover > #sel{
+width:13px;
+}
+/*INTERESTS THING ENDS HERE*/
+
+/*LIVETILE STARTS HERE*/
 .livetile {
     background: #000000;
     margin-left: 9px;
@@ -64,6 +84,14 @@ h1, h2, h3, h4, h5, h6, a, p{
     align-items: center; 
     position: relative;
     text-decoration: none;
+
+}
+.livetile:hover{
+border: solid;
+border-color: rgba(255, 255, 255, 0.50);
+border-width: 2px;
+    width: 116px;
+    height: 116px;
 }
 .container {
     display: flex;
@@ -88,16 +116,18 @@ h1, h2, h3, h4, h5, h6, a, p{
     margin: 0 auto; 
 }
 
-
-.livetile h3 {
+.livetile h4 {
     position: absolute; 
     bottom: 10px; 
     left: 10px; 
     margin: 0;
     font-family: 'Segoe UI',BackupSGUI1,BackupSGUI2 ;
     text-decoration: none;
-    font-weight: 500;
-}
+    font-weight: lighter;
+} 
+/*LIVETILE ENDS HERE*/
+
+
 /*HERE IS THE START FOR THE NAVBAR*/
 .hyprlnk {
     overflow: hidden;
@@ -141,4 +171,4 @@ h1, h2, h3, h4, h5, h6, a, p{
         @font-face { font-family: BackupBHS2; src: url('BAHNSCHRIFT.woff'); } 
         @font-face { font-family: BackupSGUI1; src: url('Segoe UI.otf'); }  
         @font-face { font-family: BackupSGUI2; src: url('Segoe UI.woff'); } 
-        @font-face { font-family: font; src: url('font.woff2'); }  
+        @font-face { font-family: DTMsans; src: url('font.woff2'); }  
