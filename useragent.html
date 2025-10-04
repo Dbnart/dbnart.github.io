@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple User-Agent Reader</title>
+        <script>
+        function displayUserAgent() {
+            var userAgent = navigator.userAgent;
+
+            document.getElementById("user-agent-info").innerHTML = userAgent;
+        }
+		</script>
+        <style>
+            body{
+                background-color: black;
+                position: relative;
+                height: 90vh; 
+            }
+            p{
+                color: white;
+                font-family: 'Segoe UI', BackupSGUI1, BackupSGUI2, Tahoma, Geneva, Verdana, sans-serif;
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: -20px;
+                font-size: x-large;
+                font-weight: 100;
+            }
+            div{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            @font-face { font-family: BackupSGUI1; src: url('Segoe UI.otf'); }  
+            @font-face { font-family: BackupSGUI2; src: url('Segoe UI.woff'); } 
+        </style>
+    </head>
+    <body onload="displayUserAgent()">
+        <div>
+        <p>Your User-Agent is:</p>
+        <p id="user-agent-info">none, enable javascript motherfucker</p>
+        </div>
+    </body>
+</html>
