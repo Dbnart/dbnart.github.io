@@ -34,8 +34,7 @@ h1, h2, h3, h4, h5, h6, a, p{
 }
 .box h1, .box h2, .box h3, .box h4, .box h5, .box h6, .box a , .box audio,.box source{
         text-align: left;
-
-        text-decoration: none;
+            text-decoration: none;
             font-family:DTMsans;
             font-size: medium;
             font-weight:lighter
@@ -48,6 +47,9 @@ h1, h2, h3, h4, h5, h6, a, p{
 .box h2 {
     opacity: 1;
     color: mediumpurple;
+}
+.thingspace{
+            margin-bottom:-10px;
 }
 /*BOX ENDS HERE*/ 
 
@@ -167,6 +169,7 @@ border-width: 2px;
             font-weight: bolder;
         }
 /*END OF NAVBAR*/
+
         @font-face { font-family: BackupBHS1; src: url('BAHNSCHRIFT.otf'); } 
         @font-face { font-family: BackupBHS2; src: url('BAHNSCHRIFT.woff'); } 
         @font-face { font-family: BackupSGUI1; src: url('Segoe UI.otf'); }  
