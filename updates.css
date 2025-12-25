@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6, a, p {
             border: 3px solid white;
             padding: 10px;
         }
+
 /*HERE IS THE START FOR THE NAVBAR*/
 .hyprlnk {
     overflow: hidden;
@@ -36,6 +37,7 @@ h1, h2, h3, h4, h5, h6, a, p {
     display: flex;
     justify-content: center;
     padding: 3px 0;
+    font-family: DTMsans;
 }
 .idontknow{
     overflow: hidden;
@@ -45,27 +47,35 @@ h1, h2, h3, h4, h5, h6, a, p {
     text-align: left;
     padding: 0 16px;
     margin: -10px;
-
+font-family: DTMsans;
 }
     .hyprlnk a {
         color: rgb(167, 167, 167);
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
-        transition: background-color 0.2s, color 0.3s;
+        font-size: 16px;
+        font-family: DTMsans;
     }
 
         .hyprlnk a:hover {
             background-color: rgba(221, 221, 221, 0.5);
             color: rgba(0,0,0,1);
             border-radius: 0;
+            font-weight: lighter;
         }
 
         .hyprlnk a.active {
             color: rgba(255,255,255,1);
             font-size: larger;
-            font-weight: bolder;
+            font-weight:lighter;
+            font-size: 16px;
+        }
+        #fuckyou{
+            font-family: DTMsans;
+            font-size: 16px;
+            font-weight:lighter;
+            color: #8840ed;
         }
 /*END OF NAVBAR*/
 .update{
@@ -73,7 +83,9 @@ h1, h2, h3, h4, h5, h6, a, p {
       overflow: hidden;
           display: flex;
 }
+
         @font-face { font-family: BackupBHS1; src: url('BAHNSCHRIFT.otf'); } 
         @font-face { font-family: BackupBHS2; src: url('BAHNSCHRIFT.woff'); } 
-        @font-face { font-family: BackupSGUI1; src: url('Segoe UI.otf'); } 
+        @font-face { font-family: BackupSGUI1; src: url('Segoe UI.otf'); }  
         @font-face { font-family: BackupSGUI2; src: url('Segoe UI.woff'); } 
+        @font-face { font-family: DTMsans; src: url('font.woff2'); }  

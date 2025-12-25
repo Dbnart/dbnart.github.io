@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+                    display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 90vh;
+                margin: 0;
+                    overflow:hidden;
+                        color: white;
+                        font-weight: lighter;
+                        text-decoration: none;
+}
+.greenroomjoke {
+    background-image: url(box.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    width: 570px;
+    height: 167px;
+    padding: 10px;
+    overflow:hidden;
+    display: flex;
+    color: white;
+                            text-decoration: none;
+}
+/*MY GARBLE OF CODE STARTS HERE*/
+.fuck:hover{
+    color: yellow;
+}
+.fuck{
+    color: white;
+}
+#sel{
+    width: 0px;
+}
+#a1{
+    margin-left: 25px; 
+    text-decoration: none;
+}
+#a1:hover > #sel{
+width:14px;
+}
+#a1:hover{
+    margin-left: 11px; 
+}
+#a2{
+    margin-left: 470;
+    text-decoration: none;
+}
+#a2:hover > #sel{
+width:14px;
+}
+#a2:hover{
+    margin-left: 456;
+}
+/*MY GARBLE OF CODE ENDS HERE*/
+.greenroomjoke h3{
+    font-weight: lighter;
+}
+        @font-face { font-family: DTMsans; src: url('font.woff2'); } 
