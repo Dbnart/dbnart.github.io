@@ -8,13 +8,17 @@
     padding: 10px;
     overflow: hidden;
     display: flex;
-    margin-top:700px;
+    margin-top:1900px;
     margin-bottom: 400px;
+}
+#somebullshit{
+    width: 754px;
+        margin: auto;
 }
 /*BOX STARTS HERE*/
 .box {
     background: black;
-    margin: auto;
+
     width: 60%;
     border: 3px solid white;
     padding: 10px;
@@ -36,7 +40,7 @@
 }
 .box h2 {
     opacity: 1;
-    color: mediumpurple;
+    color: rgb(194, 194, 194);
 }
 .thingspace{
             margin-bottom:-10px;
@@ -48,6 +52,11 @@
 }
 
 /*INTEREST THING STARTS HERE */
+#interestbox{
+    min-height: 200px;
+
+    
+}
 .fuck:hover{
     color: yellow;
 }
@@ -61,6 +70,11 @@
 width:13px;
 }
 /*INTERESTS THING ENDS HERE*/
+.bigbox{
+        display: flex;
+        column-gap: 10px;
+        align-items: flex-start;
+}
 
 /*LIVETILE STARTS HERE*/
 .livetile {
@@ -118,4 +132,8 @@ border-width: 2px;
     font-weight: lighter;
 } 
 /*LIVETILE ENDS HERE*/
-        @font-face { font-family: deltarune; src: url('deltarune.woff2');};
+        @font-face { font-family: deltarune; src: url('deltarune.woff2');}
+        @font-face { font-family: skyfont; src: url('lato.woff2'); } 
+        @font-face { font-family: quicksand; src: url('Quicksand_Light.woff2');}
+        @font-face {font-family: 'veeceear'; src: url('vcr.woff2'); }
+        @font-face { font-family: rayman; src: url('origins.woff2');}

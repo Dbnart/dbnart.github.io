@@ -1,7 +1,7 @@
 body {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(page.gif);
     background-repeat: repeat;
-    background-position: top left;
+    background-attachment: fixed;
 }
 h1, h2, h3, h4, h5, h6, a, p{
     color: white;
@@ -55,7 +55,7 @@ font-family: DTMsans;
             font-family: DTMsans;
             font-size: 16px;
             font-weight:lighter;
-            color: #8840ed;
+            color: #6b00ff;
         }
 /*END OF NAVBAR*/
 
@@ -64,5 +64,5 @@ font-family: DTMsans;
         @font-face { font-family: BackupSGUI1; src: url('Segoe UI.otf'); }  
         @font-face { font-family: BackupSGUI2; src: url('Segoe UI.woff'); } 
         @font-face { font-family: DTMsans; src: url('font.woff2'); }  
-                @font-face { font-family: skyfont; src: url('lato.woff2'); }  
-            @font-face { font-family: quicksand; src: url('Quicksand_Light.woff2');};
+
+
